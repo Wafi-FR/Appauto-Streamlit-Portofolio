@@ -49,14 +49,14 @@ def find_optimal_k(data_std):
 
 # Main Streamlit App
 def main():
-    st.title("Customer Segmentation Analysis (Flight Data)")
+    st.title("✈️ Clustering Analysis (Streamlit App)")
 
     st.write("""
-    This application performs customer segmentation using K-Means clustering on flight data.
+    Aplikasi ini dibuat untuk mengolah dataset dan menampilkan hasilnya.
     """)
 
    # File Uploader
-    uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
+    uploaded_file = st.file_uploader("Upload CSV file disini", type=["csv"])
 
     if uploaded_file is not None:
         df = load_data(uploaded_file)
