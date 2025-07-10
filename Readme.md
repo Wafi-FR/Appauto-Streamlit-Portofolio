@@ -1,7 +1,7 @@
 
-# Clustering Analysis (Streamlit App)
+# Auto Clustering Analysis (Streamlit App)
 
-This Streamlit app performs an interactive clustering analysis on dataset using KMeans and PCA.
+Upload your Dataset and this Streamlit app performs an interactive clustering analysis on dataset using KMeans and PCA.
 
 ## Features
 - Upload & preview
