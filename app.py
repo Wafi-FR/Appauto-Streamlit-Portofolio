@@ -49,7 +49,7 @@ def find_optimal_k(data_std):
 
 # Main Streamlit App
 def main():
-    st.title("✈️ Clustering Analysis (Streamlit App)")
+    st.title("Auto Clustering Analysis (Streamlit App)")
 
     st.write("""
     Aplikasi ini dibuat untuk mengolah dataset dan menampilkan hasilnya.
